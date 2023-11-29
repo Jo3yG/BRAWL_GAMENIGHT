@@ -1,1 +1,2 @@
-test
+DROP DATABASE IF EXISTS smash_brawl;
+CREATE DATABASE smash_brawl;
