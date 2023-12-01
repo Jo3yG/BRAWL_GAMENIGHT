@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { User } = require('../../models');
-// CREATE new user
+
 router.post('/', async (req, res) => {
   try {
     const dbUserData = await User.create({
@@ -17,6 +17,47 @@ router.post('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+router.post('/login', (req, res) => {
+  User.findOne({
+     where: {
+      username: req.body.username
+     }
+  })
+  .then(dbUserData => {
+      if (!dbUserData) {
+          res.status(400).json({message: 'No User Potato Head!!!!!'});
+          return;
+      }
+      const validPSW = dbUserData.checkPassword(req.body.password);
+      if (!validPSW) {
+          res.status(400).json({message: 'Wrong Password Potato Head!!!'});
+          return;
+      }
+      req.session.save(() => {
+          req.session.user_id = dbUserData.id;
+          req.session.username = dbUserData.username;
+          req.session.loggedIn = true;
+          res.json({ user: dbUserData, message: 'YAY Logged In Potato Head!!'});
+      });
+  })
+  .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
