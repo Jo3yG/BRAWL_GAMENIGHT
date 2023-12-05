@@ -1,11 +1,11 @@
 const newFormHandler = async (event) => {
     event.preventDefault();
-const charName = document.querySelector('#characterName').value.trim();
-const description = document.querySelector('#charDescription').value.trim();
-const regMoves = document.querySelector('#regMoves').value.trim();
-const finalSmash = document.querySelector('#finalSmash').value.trim();
-const gameSeries = document.querySelector('#gameSeries').value.trim();
-const firstApp = document.querySelector('#firstApp').value.trim();
+const charName = document.querySelector('#character-name').value.trim();
+const description = document.querySelector('#character-description').value.trim();
+const regMoves = document.querySelector('#character-regular-moves').value.trim();
+const finalSmash = document.querySelector('#character-final-smash').value.trim();
+const gameSeries = document.querySelector('#character-series').value.trim();
+const firstApp = document.querySelector('#character-first-appear').value.trim();
 
 if (charName && description && regMoves && finalSmash && gameSeries && firstApp){
     const response = await fetch('/api/newCharacter',{

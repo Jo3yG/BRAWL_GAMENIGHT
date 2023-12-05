@@ -1,0 +1,43 @@
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{username}}!</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>ADD A NEW CHARACTER</h3>
+    <form class="form new-character-input">
+      <div class="form-group">
+        <label for="character-name">Character Name:</label>
+        <input class="form-input" type="text" id="character-name" name="character-name" />
+      </div>
+      <div class="form-group">
+        <label for="character-description">Description:</label>
+        <textarea class="form-input" id="character-description" name="character-description"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="character-regular-moves">Regular Moves:</label>
+        <textarea class="form-input" id="character-regular-moves" name="character-regular-moves"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="character-final-smash">Final Smash:</label>
+        <textarea class="form-input" id="character-final-smash" name="character-final-smash"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="character-series">Game Series:</label>
+        <input class="form-input" id="character-series" name="character-series"></input>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="character-first-appear">First Apperance:</label>
+        <textarea class="form-input" id="character-first-appear" name="character-first-appear"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit!</button>
+      </div>
+    </form>
+  </div>
+
+
+<script src="/js/newCharacterForm.js"></script>
