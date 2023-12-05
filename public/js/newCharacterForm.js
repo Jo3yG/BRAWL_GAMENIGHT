@@ -25,3 +25,4 @@ if (charName && description && regMoves && finalSmash && gameSeries && firstApp)
 document
 .querySelector('.newCharacterForm')
 .addEventListener('submit', newFormHandler);
+
