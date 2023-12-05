@@ -17,34 +17,38 @@ router.post('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
-router.post('/login', (req, res) => {
-  User.findOne({
-     where: {
-      username: req.body.username
+router.post('/login', async (req, res) => {
+  try{
+     const userData = await User.findOne({
+      where:{
+        username: req.body.username
+      }
+     });
+     if(!userData){
+      res
+      .status(400)
+      .json({message:'No User Potato Head!!!!!'});
+      return;
      }
-  })
-  .then(dbUserData => {
-      if (!dbUserData) {
-          res.status(400).json({message: 'No User Potato Head!!!!!'});
-          return;
-      }
-      const validPSW = dbUserData.checkPassword(req.body.password);
-      if (!validPSW) {
-          res.status(400).json({message: 'Wrong Password Potato Head!!!'});
-          return;
-      }
+     const validPassword = await userData.checkPassword(req.body.password);
+     if (!validPassword){
+      res
+      .status(400)
+      .json({message:'No User Potato Head!!!!!'});
+      return;
+     }
       req.session.save(() => {
-          req.session.user_id = dbUserData.id;
-          req.session.username = dbUserData.username;
+          req.session.user_id = userData.id;
+          //req.session.username = userData.username;
           req.session.loggedIn = true;
-          res.json({ user: dbUserData, message: 'YAY Logged In Potato Head!!'});
+          res.json({ user: userData, message: 'YAY Logged In Potato Head!!'});
       });
-  })
-  .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
+    }
+  catch(err) {
+      res.status(400).json(err);
+  }
   });
-});
+
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
