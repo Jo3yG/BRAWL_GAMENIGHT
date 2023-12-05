@@ -1,7 +1,7 @@
 [
     {
         "charName": "Mario",
-        "description":'',
+        "description":"",
         "regMoves":"Fireball, Cape, Super Jump Punch, F.L.U.D.D",
         "finalSmash":"Mario Finale",
         "gameSeries":"Super Mario",
@@ -25,5 +25,5 @@
         "gameSeries":"Mario",
         "firstApp":"Super Mario Bros (1985)",
         "user_id":3
-    },
+    }
 ]
