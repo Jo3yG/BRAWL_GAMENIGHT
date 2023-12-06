@@ -10,9 +10,9 @@
           {{/each}}
         {{else}}
           <h4 class="vote-header">You can only vote for one of the candidates below</h4>
-          {{#each candidates as |candidate| }}
+          {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
-                <a href="/character/{{character.id}}">{{caharacter.charName}}</a>
+                <a href="/character/{{character.id}}">{{character.charName}}</a>
                 <button class="vote-button" type="submit" value="{{character.id}}">Vote</button>
               </div> 
           {{/each}}

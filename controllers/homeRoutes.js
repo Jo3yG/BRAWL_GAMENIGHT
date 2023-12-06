@@ -58,7 +58,7 @@ router.get('/newCharacter', withAuth, async (req, res) => {
 
     const user = userData.get({ plain: true });
 
-    res.render('new_character', {
+    res.render('newCharacter', {
       ...user,
       logged_in: true
     });
