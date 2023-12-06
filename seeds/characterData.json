@@ -1,7 +1,7 @@
 [
     {
         "charName": "Mario",
-        "description":"",
+        "description":"Near the beginning, he fights in a friendly match with Kirby but after the Subspace army appears, he gets knocked far away from a stadium, and then gets saved by Pit. Later, Mario and Pit team up with Link, Yoshi, and Kirby.",
         "regMoves":"Fireball, Cape, Super Jump Punch, F.L.U.D.D",
         "finalSmash":"Mario Finale",
         "gameSeries":"Super Mario",
@@ -11,7 +11,7 @@
     },
     {
         "charName": "Luigi",
-        "description":"",
+        "description":"Luigi is transformed into a trophy by King Dedede in order for him to revive him when Tabuu defeats all of the other heroes. After Tabuu does this, a special brooch that Dedede made revives Luigi and Ness, who go with Dedede to save the others.",
         "regMoves":"Fireball, Green Missle, Super Jump Punch, Luigi Cyclone",
         "finalSmash":"Negative Zone",
         "gameSeries":"Super Mario",
@@ -21,7 +21,7 @@
     },
     {
         "charName": "Princess Peach",
-        "description":"",
+        "description":"At first she gets trapped by Petey Piranha. If Kirby manages to save her, then the two team up. Later, Shadow-bugs take over her body and try to turn Mario and Pit into trophies. Link and Yoshi stop her, however. If she is not saved, Wario turns her into a trophy, but she is stolen by King Dedede, and then Bowser takes her trophy. Both princesses are later rescued by Meta Knight, Snake, and Lucario.",
         "regMoves":"Toad, Peach Bomber, Peach Parasol, Vegetable",
         "finalSmash":"Peach Blossom",
         "gameSeries":"Mario",
@@ -31,7 +31,7 @@
     },
     {
         "charName": "Bowser",
-        "description":"",
+        "description":" Bowser is a member of the Subspace Army, thinking he is working for Master Hand. He goes across the world fighting Smashers, but when he learns that Master Hand was being manipulated by Tabuu, he joins the heroes.",
         "regMoves":"Fire Breath, Flying Slam, Whirling Fortress, Bowser Bomb",
         "finalSmash":"Giga Bowser Transformation",
         "gameSeries":"Super Mario",
@@ -41,7 +41,7 @@
     },
     {
         "charName": "Pokemon Trainer",
-        "description":"",
+        "description":"He encounters Lucas in the Ruined Zoo and they battle the Subspace Army. They later go in search of an Ivysaur and a Charizard, the two Pokémon that the Trainer needs. After the capture them, they fight Galleom and are rescued by Meta Knight before Galleom self-destructs. ",
         "regMoves":"Pokemon Change: Charizard, Ivysaur, Squirtle",
         "finalSmash":"Triple Finish",
         "gameSeries":"Pokemon",
@@ -51,7 +51,7 @@
     },
     {
         "charName": "Jigglypuff",
-        "description":"",
+        "description":"Jigglypuff is the one of the three characters not to have a role in the Subspace Emissary. It is found in a secret door, and will join you if you defeat her.",
         "regMoves":"Rollout, Pound, Sing, Rest",
         "finalSmash":"Puff Up",
         "gameSeries":"Pokemon",
@@ -61,7 +61,7 @@
     },
     {
         "charName": "Ness",
-        "description":"",
+        "description":"Ness help Lucas defeat Porky Minch, but when Wario tries to turn Lucas into a trophy, Ness sacrifices himself to save Lucas. His trophy is later stolen by King Dedede, who gives him a Dedede Brooch, which will revive him in a set amount of time. When he is revived, he helps Luigi and Dedede rescue the Smashers who were defeated by Tabuu.",
         "regMoves":"PK Fire, PK Thunder, PK Flash, PSI Magnet",
         "finalSmash":"PK Starstorm",
         "gameSeries":"Earthbound/Mother",
@@ -71,7 +71,7 @@
     },
     {
         "charName": "Lucas",
-        "description":"",
+        "description":"When Wario turns Ness into a trophy, Lucas runs into the Pokémon Trainer, and they join forces. They later defeat Wario and team up with Marth, Ike, Mario, Link, Kirby, Pit, and Yoshi.",
         "regMoves":"PK Freeze, PK Fire, PK Thunder, PSI Magnet",
         "finalSmash":"PK Starstorm",
         "gameSeries":"Earthbound/Mother",
@@ -81,7 +81,7 @@
     },
     {
         "charName": "Solid Snake",
-        "description":"",
+        "description":"Snake has been hiding on the Halberd in his cardboard box. When he travels through the ship, he meets and teams up with Meta Knight and Lucario. When they reach the control room, Snake throws all of the Game & Watches who were piloting the ship out the window, and they turn into Duon, who Snake helps fight.",
         "regMoves":"Grenade, Remote Missile, Cypher, C4",
         "finalSmash":"Grenade Launcher",
         "gameSeries":"Metal Gear",
@@ -91,7 +91,7 @@
     },
     {
         "charName": "Sonic The Hedgehog",
-        "description":"",
+        "description":"Towards the end of the story, Sonic appears and breaks one of Tabuu's wings, weakening his Off Wave powers. He then joins the other Smashers to fight Tabuu.",
         "regMoves":"Homing Attack, Spin Dash, Spring Jump, Spin Charge",
         "finalSmash":"Super Sonic",
         "gameSeries":"Sonic The Hedgehog",
@@ -101,7 +101,7 @@
     },
     {
         "charName": "Captain Falcon",
-        "description":"",
+        "description":"When a giant ROB attacks Olimar and his Pikmin, Captain Falcon rescues them. They later join with Donkey Kong, Diddy Kong, Samus, Pikachu, and the master ROB. They escape the Isle of the Ancients, which is about to explode, in Captain Falcon's Falcon Flyer.",
         "regMoves":"Falcon Punch, Raptor Boost, Falcon Dive, Falcon Kick",
         "finalSmash":"Blue Falcon",
         "gameSeries":"F-Zero",
@@ -111,7 +111,7 @@
     },
     {
         "charName": "Lucario",
-        "description":"",
+        "description":"When Meta Knight reaches the top of the mountain, Lucario challenges him to a duel. After that, they team up and board the Halberd, where they meet Snake. Later, Lucario helps fight Duon.",
         "regMoves":"Aura Sphere, Force Palm, ExtremeSpeed, Double Team",
         "finalSmash":"Aura Storm",
         "gameSeries":"Pokemon",
@@ -121,7 +121,7 @@
     },
     {
         "charName": "Pikachu",
-        "description":"",
+        "description":"Pikachu is being used to power a factory, and Samus rescues him. They later team up with Donkey Kong, Diddy Kong, Captain Falcon, Captain Olimar, and ROB.",
         "regMoves":"Thunder Jolt, Skull Bash, Quick attack, Thunder",
         "finalSmash":"Volt Tackle",
         "gameSeries":"Pokemon",
@@ -131,7 +131,7 @@
     },
     {
         "charName": "King Dedede",
-        "description":"",
+        "description":"After learning of Tabuu's great powers, Dedede invents a brooch that will revive Smasher's trophies after a set amount of time. He turns Luigi into a trophy, and steals Ness and the princess's trophies from Wario, and he gives them each a brooch. However, Bowser steals the princess, but Luigi and Ness still help Dedede rescue everyone from Tabuu.",
         "regMoves":"Inhale, Waddle Dee Toss, Super Dedede Jump, Jet Hammer",
         "finalSmash":"Waddle Dee Army",
         "gameSeries":"Kirby",
@@ -141,7 +141,7 @@
     },
     {
         "charName": "Meta Knight",
-        "description":"",
+        "description":"Before the story begins, Meta Knight's battleship, the Halberd, is stolen by the Subspace Army. Much later, he travels up a mountain to reach his ship. At the mountaintop, he meets and eventually befriends Lucario. While on the Halberd, they team up with Snake and rescue Zelda and Peach. ",
         "regMoves":"Mach Tornado, Drill Rush, Shuttle Loop, Dimensional Cape",
         "finalSmash":"Galaxia Darkness",
         "gameSeries":"Kirby",
@@ -151,7 +151,7 @@
     },
     {
         "charName": "Kirby",
-        "description":"",
+        "description":"Near the beginning, he fights in a friendly match with Mario, but after the Subspace army appears he must save either Princess Peach or Princess Zelda from Petey Piranha. Later, Bowser captures the princess Kirby saved, and Kirby goes to help Mario, Link, Pit, and Yoshi. He is the one who later destroys the Subspace Gunship.",
         "regMoves":"Inhale, Hammer, Final Cutter, Stone",
         "finalSmash":"Cook Kirby",
         "gameSeries":"Kirby",
@@ -161,7 +161,7 @@
     },
     {
         "charName": "R.O.B",
-        "description":"",
+        "description":" Before the story starts, Tabuu blackmails ROB's people into inventing Subspace Bombs for the army. In shame, ROB becomes the Ancient Minister and places Subspace Bombs across the world. When Ganondorf orders the bombs to go off in the Isle of the Ancients, the Minister tries to stop him, but fails. As ROB, he joins Samus, Pikachu, Captain Falcon, Olimar, Donkey Kong, and Diddy Kong.",
         "regMoves":"Robo Beam, Arm Rotor, Robo Burner, Gyro",
         "finalSmash":"Diffusion Beam",
         "gameSeries":"Nintendo",
@@ -171,7 +171,7 @@
     },
     {
         "charName": "Ice Climbers",
-        "description":"",
+        "description":"When Meta Knight travels up the mountain that they are climbing, they take it as a challenge and travel with him. But when the Halberd crashes into the mountain, they fall off and meet Mario and Marth's teams.",
         "regMoves":"Ice Shot, Squall Hammer, Belay, Blizzard",
         "finalSmash":"Iceberg",
         "gameSeries":"Ice Climbers",
@@ -181,7 +181,7 @@
     },
     {
         "charName": "Pit",
-        "description":"",
+        "description":" The Subspace Army invades when Pit is watching Mario and Kirby's fight. Palutena sends him out into the world to fight the innvaders, and he rescues Mario along the way. They later team up with Link, Yoshi, and Pit.",
         "regMoves":"Palutenas Arrow, Angel Ring, Wings of Icarus, Mirror Shield",
         "finalSmash":"Palutenas Army",
         "gameSeries":"Kid Icarus",
@@ -191,7 +191,7 @@
     },
     {
         "charName": "Zero Suit Samus Aran",
-        "description":"",
+        "description":"While in search of her Power Suit, Samus encounters a Pikachu, who is trapped in a machine that drains its power. She rescues it, and they go to the location of her Power Suit.",
         "regMoves":"Paralyzer, Plasma Whip, Plasma Wire, Flip Jump",
         "finalSmash":"Power Suit Samus",
         "gameSeries":"Metroid",
@@ -201,7 +201,7 @@
     },
     {
         "charName": "Samus Aran",
-        "description":"",
+        "description":"While in her Power Suit, she rescues Pikachu from a machine draining his powers, and they locate her Power Suit. They later team up with Donkey Kong, Diddy Kong, Captain Falcon, Captain Olimar, and R.O.B.",
         "regMoves":"Charge Shot, Missile, Screw Attack, Bomb",
         "finalSmash":"Zero Laser",
         "gameSeries":"Metroid",
@@ -211,7 +211,7 @@
     },
     {
         "charName": "Toon Link",
-        "description":"",
+        "description":"Toon Link doesn't appear in the main story, but in a secret door in the Forest, you can encounter and fight Toon Link, and he'll join you if you defeat him.",
         "regMoves":"Heros Bow, Gale Boomerang, Spin Attack, Bomb",
         "finalSmash":"Triforce Slash",
         "gameSeries":"The Legend of Zelda",
@@ -221,7 +221,7 @@
     },
     {
         "charName": "Ganondorf",
-        "description":"",
+        "description":"Ganondorf is a member of the Subspace Army, but he plans to take it over when the time is right. When he finally goes to meet Master Hand, he learns the army's true leader is Tabuu, who turns him into a trophy. Link and Zelda revive him and he helps them defeat Tabuu.",
         "regMoves":"Warlock Punch, Flame Choke, Dark Diva, Wizards Foot",
         "finalSmash":"Beast Ganon",
         "gameSeries":"The Legend of Zelda",
@@ -231,7 +231,7 @@
     },
     {
         "charName": "Sheik",
-        "description":"",
+        "description":"After the two princess are resuced, Zelda transform into Sheik as she battles on the Halberd. She also teams up with Fox, Snake, Lucario and Falco.",
         "regMoves":"Needle Storm, Chain, Vanish, Transform",
         "finalSmash":"Light Arrow",
         "gameSeries":"The Legend of Zelda",
@@ -241,7 +241,7 @@
     },
     {
         "charName": "Princess Zelda",
-        "description":"",
+        "description":"At first, she is captured by Petey Piranha. If Kirby manages to save her, then they will team up. Later, she is possessed by Shadow-Bugs and attempts to turn Link and Yoshi into trophies. Mario and Pit stop her, however. If she is not saved, Wario turns her into a trophy, but she is stolen by King Dedede, and then Bowser takes her trophy.  Both princesses are later rescued by Meta Knight, Snake, and Lucario.",
         "regMoves":"Nayrus Love, Dins Fire, Farores Wind, Transform",
         "finalSmash":"Light Arrow",
         "gameSeries":"The Legend of Zelda (1986)",
@@ -251,7 +251,7 @@
     },
     {
         "charName": "Link",
-        "description":"",
+        "description":"When he first appears, he pulls the Master Sword from its pedestal in the woods, and teams up with Yoshi to fight the Subspace Army. They later join Mario, Pit, and Yoshi.",
         "regMoves":"Heros Bow, Gale Boomerang, Spin Attack, Bomb",
         "finalSmash":"Triforce Slash",
         "gameSeries":"Legend of Zelda(1986)",
@@ -261,7 +261,7 @@
     },
     {
         "charName": "Wario",
-        "description":"",
+        "description":"Wario is a lower ranking member of the Subspace Army. After Kirby rescues one princess from Petey Piranha, Wario comes down and captures the one Kirby failed to save. He is later shown in the Ruined Zoo capturing Ness. Later, Lucas and the Trainer defeat him, and his trophy is sucked into Subspace. When he is saved, he decides to help the heroes fight Tabuu instead of fighting them, because he is outnumbered.",
         "regMoves":"Chomp, Wario Bike, Corkscrew, Wario Waft",
         "finalSmash":"Wario-Man",
         "gameSeries":"Super Mario & Wario",
@@ -271,7 +271,7 @@
     },
     {
         "charName": "Yoshi",
-        "description":"",
+        "description":"The Subspace Army attacks while he is sleeping, and he teams up with Link to fight the villains off. They later join up with Mario, Pit, and Kirby. ",
         "regMoves":"Egg Lay, Egg Roll, Egg Throw, Yoshi Bomb",
         "finalSmash":"",
         "gameSeries":"Super Mario & Yoshi",
@@ -281,7 +281,7 @@
     },
     {
         "charName": "Diddy Kong",
-        "description":"",
+        "description":"After Bowser steals their bananas, he and Donkey Kong track down Bowser, who turns Donkey Kong into a trophy. Diddy escapes, and teams up with Fox to fight Rayquaza. Much later, they encounter Bowser, whose Dark Cannon gets destroyed by Falco. Falco later drops Diddy off on the Smash Skiff, where Donkey Kong is being held. With the help of Captain Falcon and Captain Olimar, they take over the Smash Skiff, and join up with Samus, Pikachu, and ROB.",
         "regMoves":"Peanut Popgun, Monkey Flip, Rocketbarrel Boost, Banana Peel",
         "finalSmash":"Rocketbarrel Barrage",
         "gameSeries":"Donkey Kong & Mario Spin-Offs",
@@ -291,7 +291,7 @@
     },
     {
         "charName": "Donkey Kong",
-        "description":"",
+        "description":"He and Diddy Kong chase after Bowser, who has stolen their bananas. However, Bowser tries to use his Dark Cannon on Diddy, and Donkey Kong saves him, getting turned into a trophy in the process. He is later rescued by Diddy, Captain Falcon, and Captain Olimar. They then team up with Samus, Pikachu, and ROB.",
         "regMoves":"Giant Punch, Headbutt, Spinning Kong, Hand Slap",
         "finalSmash":"Konga Beat",
         "gameSeries":"Super Mario & Donkey Kong",
