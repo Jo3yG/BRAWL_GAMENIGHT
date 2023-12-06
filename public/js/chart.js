@@ -1,10 +1,9 @@
 const canvas = document.getElementById('vote-chart');
 const characters = JSON.parse(canvas.dataset.characters);
-  
 const characterNames = characters.map(character => character.name);
 const characterVotes = characters.map(character => character.votes);
-
 const ctx = document.getElementById('vote-chart');
+
 const chart = new Chart(ctx, {
 type: 'bar',
 data: {
