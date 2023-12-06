@@ -1,9 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-
 class Character extends Model {}
-
-
 Character.init(
     {
       id: {
@@ -31,10 +28,10 @@ Character.init(
       firstApp: {
         type: DataTypes.TEXT,
       },
-     // votes: {
-      //  type: DataTypes.INTEGER,
-      //  allowNull: false,
-     // },
+    votes: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
       user_id: {
         type: DataTypes.INTEGER,
         references: {
@@ -51,5 +48,19 @@ Character.init(
       modelName: 'character',
     }
   );
-  
   module.exports = Character;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
