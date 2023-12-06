@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BRAWL GAMENIGHT</title>
+  <title>GameNight</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    
   <link rel="stylesheet" href="/css/jass.css">
   <style>
     header {
@@ -19,13 +17,35 @@
     }
   </style>
 </head>
-
 <body>
   <div class="flex-column justify-space-around">
     <header class="hero header-image">
+      <h1 class="app-name">
+        <span style='font-size:100px;'></span>
+        <a id="vfm" href="/">Brawl Night!!!</a>
+      </h1>
+      <nav class="flex-row">
+        {{#if logged_in}}
+          {{#if isCharacter}}
             <h2 class="nav-option">
-              <a id="smt" href="/login">Login to Brawl-Gamenight</a>
+              <button class="withdraw" id="smt">Withdraw from This Election</button>
             </h2>
+            <h2 class="nav-option">
+              <button class="no-button" id="logout">Logout</button>
+            </h2>
+          {{else}}
+            <h2 class="nav-option">
+              <a href="/newCharacter" class="no-button" id="smt">Add Character</a>
+            </h2>
+            <h2 class="nav-option">
+              <button class="no-button" id="logout" id="smt">Logout</button>
+            </h2>
+          {{/if}}
+        {{else}}
+            <h2 class="nav-option">
+              <a id="smt" href="/login">Login to Add Character</a>
+            </h2>
+        {{/if}}
       </nav>
     </header>
     <main class="flex-row justify-space-between">
@@ -36,8 +56,11 @@
   </div>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+  <script src="/js/withdraw.js"></script>
 </body>
-
 <footer>
       <a>ArtVargas</a>
       <a href="https://github.com/ArtVargas"><i class="icon ion-social-github"></i></a>
@@ -46,5 +69,23 @@
       <a>Joey</a>
       <a href="https://github.com/Jo3yG"><i class="icon ion-social-github"></i></a>
 </footer>
-
 </html>
+]
+GitHubGitHub
+ArtVargas - Overview
+ArtVargas has 18 repositories available. Follow their code on GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
