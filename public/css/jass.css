@@ -198,14 +198,14 @@ p {
   margin: 25px;
 }
 
-.vote-header {
+.elect-header {
   width: 50%;
   padding-left: 3%;
   margin-top: 1%;
   margin-bottom: 2%;
 }
 
-.vote-result {
+.char-result {
   width: 50%;
   padding-left: 5%;
   margin-bottom: 1.5%;
@@ -216,7 +216,7 @@ p {
   text-align: right;
 }
 
-.vote-button {
+.e-button {
   display: inline;
   height: 30px;
   margin: 25px;
