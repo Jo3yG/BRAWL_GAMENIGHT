@@ -2,14 +2,14 @@
     <div>
       {{#if logged_in}}
         {{#if voted}}
-          <h4 class="vote-header">You've already voted!</h4>
+          <h4 class="vote-header">Already voted!</h4>
           {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div> 
           {{/each}}
         {{else}}
-          <h4 class="vote-header">You can only vote for one of the candidates below</h4>
+          <h4 class="vote-header">Vote Your Favorite Character!!</h4>
           {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
