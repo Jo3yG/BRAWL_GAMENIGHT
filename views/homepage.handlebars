@@ -1,11 +1,40 @@
 <div class="homepage">
     <div>
       {{#if logged_in}}
-          <h2 class="char-header">Characters:</h2>
-          {{#each character as |character| }}
-              <div class="char-result flex-row col-md-6 justify-space-between">
-                <a href="/character/{{character.id}}">{{character.name}}</a>
+        {{#if voted}}
+          <h4 class="vote-header">You've already voted!</h4>
+          {{#each characters as |character| }}
+              <div class="vote-result flex-row col-md-6 justify-space-between">
+                <a href="/character/{{character.id}}">{{character.charName}}</a>
+              </div> 
+          {{/each}}
+        {{else}}
+          <h4 class="vote-header">You can only vote for one of the candidates below</h4>
+          {{#each candidates as |candidate| }}
+              <div class="vote-result flex-row col-md-6 justify-space-between">
+                <a href="/character/{{character.id}}">{{caharacter.charName}}</a>
+                <button class="vote-button" type="submit" value="{{character.id}}">Vote</button>
+              </div> 
+          {{/each}}
+        {{/if}}
+      {{else}}
+          <h2 class="vote-header">Characters:</h2>
+          {{#each characters as |character| }}
+              <div class="vote-result flex-row col-md-6 justify-space-between">
+                <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div>
           {{/each}}
       {{/if}}
     </div>
+    <div class="chartCard flex-row">
+      <div class="chartBox">
+    <canvas id="vote-chart" data-characters="{{json characters}}"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+<script src="/js/vote.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/chart.js"></script>

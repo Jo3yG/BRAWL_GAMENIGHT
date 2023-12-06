@@ -27,7 +27,11 @@ User.init(
         len: [8],
       },
     },
-  },
+    voted: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+    }
+    },
   {
     hooks: {
       beforeCreate: async (newUserData) => {

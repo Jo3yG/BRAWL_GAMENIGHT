@@ -31,10 +31,10 @@ Character.init(
       firstApp: {
         type: DataTypes.TEXT,
       },
-     // votes: {
-      //  type: DataTypes.INTEGER,
-      //  allowNull: false,
-     // },
+    votes: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
       user_id: {
         type: DataTypes.INTEGER,
         references: {
