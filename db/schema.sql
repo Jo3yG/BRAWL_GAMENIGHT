@@ -1,3 +1,8 @@
+DROP DATABASE IF EXISTS smash_brawl;
+CREATE DATABASE smash_brawl;
+
+USE smash_brawl;
+
 CREATE TABLE characters (
   id INT NOT NULL,
   charName VARCHAR(30) NOT NULL,
@@ -17,15 +22,6 @@ VALUES (001, "Mario", "Near the beginning, he fights in a friendly match with Ki
        (004, "Bowser", " Bowser is a member of the Subspace Army, thinking he is working for Master Hand. He goes across the world fighting Smashers, but when he learns that Master Hand was being manipulated by Tabuu, he joins the heroes.",
        "Fire Breath, Flying Slam, Whirling Fortress, Bowser Bomb","Giga Bowser Transformation",
        "Super Mario","Super Mario Bros (1984)");
-
-
-
-
-
-
-
-
-
 
 
 
