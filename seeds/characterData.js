@@ -277,4 +277,4 @@ const characterData = [
 const seedCharacter = () => Character.bulkCreate(characterData);
 
 module.exports = seedCharacter;
-Super Mario Bros (19
+
