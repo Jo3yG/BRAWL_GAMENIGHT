@@ -6,11 +6,10 @@ const regMoves = document.querySelector('#character-regular-moves').value.trim()
 const finalSmash = document.querySelector('#character-final-smash').value.trim();
 const gameSeries = document.querySelector('#character-series').value.trim();
 const firstApp = document.querySelector('#character-first-appear').value.trim();
-
 if (charName && descriptio && regMoves && finalSmash && gameSeries && firstApp){
     const response = await fetch('/api/newCharacter',{
      method: 'POST',
-     body: JSON.stringify({charName, descriptio, regMoves, finalSmash, gameSeries, firstApp}), 
+     body: JSON.stringify({charName, descriptio, regMoves, finalSmash, gameSeries, firstApp}),
      headers : {
         'Content-Type': 'application/json',
      },
@@ -25,4 +24,19 @@ if (charName && descriptio && regMoves && finalSmash && gameSeries && firstApp){
 document
 .querySelector('.newCharacterForm')
 .addEventListener('submit', newFormHandler);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
