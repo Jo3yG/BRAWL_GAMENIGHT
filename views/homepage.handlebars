@@ -13,7 +13,7 @@
           {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
-                <button class="vote-button" type="submit" value="{{character.id}}">Vote</button>
+                <button class="vote-button" type="submit" value="{{character.id}}"></button>
               </div>
           {{/each}}
         {{/if}}
