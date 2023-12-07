@@ -4,14 +4,14 @@
         {{#if voted}}
           <h4 class="headerone">Already Chosen!</h4>
           {{#each characters as |character| }}
-              <div class="vote-result flex-row col-md-6 justify-space-between">
+              <div class="result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div>
           {{/each}}
         {{else}}
           <h4 class="headerone">Who Do You Choose!!</h4>
           {{#each characters as |character| }}
-              <div class="vote-result flex-row col-md-6 justify-space-between">
+              <div class="result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
                 <button class="vote-button" type="submit" value="{{character.id}}"></button>
               </div>
@@ -20,7 +20,7 @@
       {{else}}
           <h2 class="headerone">Characters:</h2>
           {{#each characters as |character| }}
-              <div class="vote-result flex-row col-md-6 justify-space-between">
+              <div class="result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div>
           {{/each}}
