@@ -2,14 +2,14 @@
     <div>
       {{#if logged_in}}
         {{#if voted}}
-          <h4 class="vote-header">Already Chosen!</h4>
+          <h4 class="headerone">Already Chosen!</h4>
           {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div>
           {{/each}}
         {{else}}
-          <h4 class="vote-header">Who Do You Choose!!</h4>
+          <h4 class="headerone">Who Do You Choose!!</h4>
           {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
@@ -18,7 +18,7 @@
           {{/each}}
         {{/if}}
       {{else}}
-          <h2 class="vote-header">Characters:</h2>
+          <h2 class="headerone">Characters:</h2>
           {{#each characters as |character| }}
               <div class="vote-result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
