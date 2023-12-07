@@ -13,7 +13,7 @@ Character.init(
         type: DataTypes.TEXT,
         allowNull: false,
       },
-      description: {
+      descriptio: {
         type: DataTypes.TEXT,
       },
       regMoves: {
