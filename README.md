@@ -31,6 +31,7 @@ Go to localhost:3001 in web browser
 Sign-up
 Add Characters
 ## How to Use This Application:
+Download Video Link File to Watch(itssafe)
  Video Link: https://drive.google.com/file/d/1r6f_QO5IbionA2kgiDbhFnuPbsZu2ogk/view
 ## Contributors
   JoshysHERE's Github: https://github.com/JoshysHERE
