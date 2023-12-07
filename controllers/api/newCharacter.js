@@ -6,6 +6,7 @@ router.post('/', withAuth, async (req,res) => {
     try{
         const newCharacter = await Character.create({
          ...req.body,
+            votes:0,
             user_id: req.session.user_id,
         });
         res.status(200).json(newCharacter);
