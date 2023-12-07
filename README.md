@@ -18,8 +18,15 @@ In integrated Terminal Run (mysql -u root -p)
 Enter my mysql password
 Run in mysql (source db/schema.sql;)
 Run in mysql (quit)
+
+Fill in .env
+    DB_NAME="smash_brawl"
+    DB_PASSWORD=""
+    DB_USER=""
+
 Run in integrated terminal (npm i)
 Run in integrated terminal (node server.js)
+
 Go to localhost:3001 in web browser
 Sign-up
 Add Characters
