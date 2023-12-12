@@ -2,34 +2,42 @@
     <div>
       {{#if logged_in}}
         {{#if voted}}
-          <h4 class="elect-header">Already Chosen!</h4>
+          <h4 class="headerone">Already Chosen!</h4>
           {{#each characters as |character| }}
-              <div class="char-result flex-row col-md-6 justify-space-between">
+              <div class="result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div>
           {{/each}}
         {{else}}
-          <h4 class="elect-header">Who Do You Choose!!</h4>
+          <h4 class="headerone">Who Do You Choose!!</h4>
           {{#each characters as |character| }}
-              <div class="char-result flex-row col-md-6 justify-space-between">
+              <div class="result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
-                <button class="e-button" type="submit" value="{{character.id}}">Vote</button>
+                <button class="vote-button" type="submit" value="{{character.id}}"></button>
               </div>
           {{/each}}
         {{/if}}
       {{else}}
-          <h2 class="elect-header">Characters:</h2>
+          <h2 class="headerone">Characters:</h2>
           {{#each characters as |character| }}
-              <div class="char-result flex-row col-md-6 justify-space-between">
+              <div class="result flex-row col-md-6 justify-space-between">
                 <a href="/character/{{character.id}}">{{character.charName}}</a>
               </div>
           {{/each}}
       {{/if}}
-    </div>
-    
-<script src="/js/vote.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

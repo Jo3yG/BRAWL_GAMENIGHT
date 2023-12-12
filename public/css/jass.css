@@ -187,25 +187,14 @@ p {
   color: blue;
   margin-bottom: 1.5%;
 }
-
-/* Vote Elements */
-#votedata {
-  display: inline-flex;
-  justify-content: space-evenly;
-}
-
-#vote-element{
-  margin: 25px;
-}
-
-.elect-header {
+.headerone {
   width: 50%;
   padding-left: 3%;
   margin-top: 1%;
   margin-bottom: 2%;
 }
 
-.char-result {
+.vote-result {
   width: 50%;
   padding-left: 5%;
   margin-bottom: 1.5%;
@@ -216,7 +205,7 @@ p {
   text-align: right;
 }
 
-.e-button {
+.vote-button {
   display: inline;
   height: 30px;
   margin: 25px;
@@ -288,6 +277,25 @@ button:hover{
   font-weight: bold;
 }
 
+/* Chart Elements */
+.chartCard {
+  display: right;
+  width: 30vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 2%;
+}
+
+.chartBox {
+  width: 80%;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 3px rgba(54, 162, 235, 1);
+  background: white;
+}
 
 /* Footer Elements */
 footer{
@@ -653,3 +661,4 @@ label {
     flex-wrap: wrap;
   }
 }
+
