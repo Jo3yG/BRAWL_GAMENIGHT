@@ -3,7 +3,7 @@ CREATE DATABASE smash_brawl;
 
 USE smash_brawl;
 
-CREATE TABLE characters (
+CREATE TABLE characterz (
   id INT NOT NULL,
   charName VARCHAR(30) NOT NULL,
   descriptio VARCHAR(3000) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE characters (
   gameSeries VARCHAR(30) NOT NULL,
   firstApp VARCHAR(30) NOT NULL
 );
-INSERT INTO characters (id, charName, descriptio, regMoves, finalSmash, gameSeries, firstApp)
+INSERT INTO characterz (id, charName, descriptio, regMoves, finalSmash, gameSeries, firstApp)
 VALUES (001, "Mario", "Near the beginning, he fights in a friendly match with Kirby but after the Subspace army appears, he gets knocked far away from a stadium, and then gets saved by Pit. Later, Mario and Pit team up with Link, Yoshi, and Kirby.",
         "Fireball, Cape, Super Jump Punch, F.L.U.D.D","Mario Finale","Super Mario","Donkey Kong (1981)"),
        (002, "Luigi", "Luigi is transformed into a trophy by King Dedede in order for him to revive him when Tabuu defeats all of the other heroes. After Tabuu does this, a special brooch that Dedede made revives Luigi and Ness, who go with Dedede to save the others.","Fireball, Green Missle, Super Jump Punch, Luigi Cyclone","Negative Zone",
@@ -76,29 +76,3 @@ VALUES (001, "Mario", "Near the beginning, he fights in a friendly match with Ki
        "Peanut Popgun, Monkey Flip, Rocketbarrel Boost, Banana Peel","Rocketbarrel Barrage","Donkey Kong & Mario Spin-Offs","Donkey Kong Country (1994)"),
        (031,"Donkey Kong","He and Diddy Kong chase after Bowser, who has stolen their bananas. However, Bowser tries to use his Dark Cannon on Diddy, and Donkey Kong saves him, getting turned into a trophy in the process. He is later rescued by Diddy, Captain Falcon, and Captain Olimar. They then team up with Samus, Pikachu, and ROB.",
        "Giant Punch, Headbutt, Spinning Kong, Hand Slap","Konga Beat","Super Mario & Donkey Kong","Donkey Kong (1984)")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

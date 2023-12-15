@@ -7,7 +7,7 @@
         "gameSeries":"Super Mario",
         "firstApp":"Donkey Kong (1981)",
         "votes": 0,
-        "user_id":1
+       // "user_id":1
     },
     {
         "charName": "Luigi",
@@ -17,7 +17,7 @@
         "gameSeries":"Super Mario",
         "firstApp":"Mario Bros (1983)",
         "votes": 0,
-        "user_id":2
+       // "user_id":2
     },
     {
         "charName": "Princess Peach",
@@ -27,7 +27,7 @@
         "gameSeries":"Mario",
         "firstApp":"Super Mario Bros (1985)",
         "votes": 0,
-        "user_id":3
+        //"user_id":3
     },
     {
         "charName": "Bowser",
@@ -37,7 +37,7 @@
         "gameSeries":"Super Mario",
         "firstApp":"Super Mario Bros (1984)",
         "votes": 0,
-        "user_id":4
+        //"user_id":4
     },
     {
         "charName": "Pokemon Trainer",
@@ -47,7 +47,7 @@
         "gameSeries":"Pokemon",
         "firstApp":"Pokémon Red/Green (1996) This Incarnation: Pokémon FireRed/LeafGreen (2004)",
         "votes": 0,
-        "user_id":5
+        //"user_id":5
     },
     {
         "charName": "Jigglypuff",
@@ -57,7 +57,7 @@
         "gameSeries":"Pokemon",
         "firstApp":"Pokémon Red/Green (1996)",
         "votes": 0,
-        "user_id":6
+        //"user_id":6
     },
     {
         "charName": "Ness",
@@ -67,7 +67,7 @@
         "gameSeries":"Earthbound/Mother",
         "firstApp":"Earthbound (1995)",
         "votes": 0,
-        "user_id":7
+        //"user_id":7
     },
     {
         "charName": "Lucas",
@@ -77,7 +77,7 @@
         "gameSeries":"Earthbound/Mother",
         "firstApp":"Earthbound (2006)",
         "votes": 0,
-        "user_id":8
+        //"user_id":8
     },
     {
         "charName": "Solid Snake",
@@ -87,7 +87,7 @@
         "gameSeries":"Metal Gear",
         "firstApp":"Metal Gear (1987)",
         "votes": 0,
-        "user_id":9
+        //"user_id":9
     },
     {
         "charName": "Sonic The Hedgehog",
@@ -97,7 +97,7 @@
         "gameSeries":"Sonic The Hedgehog",
         "firstApp":"Sonic The Hedgehog (1991)",
         "votes": 0,
-        "user_id":10
+        //"user_id":10
     },
     {
         "charName": "Captain Falcon",
@@ -107,7 +107,7 @@
         "gameSeries":"F-Zero",
         "firstApp":"F-Zero (1990)",
         "votes": 0,
-        "user_id":11
+       // "user_id":11
     },
     {
         "charName": "Lucario",
@@ -117,7 +117,7 @@
         "gameSeries":"Pokemon",
         "firstApp":"Pokémon Diamond & Pearl (2006)",
         "votes": 0,
-        "user_id":12
+       // "user_id":12
     },
     {
         "charName": "Pikachu",
@@ -127,7 +127,7 @@
         "gameSeries":"Pokemon",
         "firstApp":"Pokémon Red/Green (1996)",
         "votes": 0,
-        "user_id":13
+        //"user_id":13
     },
     {
         "charName": "King Dedede",
@@ -137,7 +137,7 @@
         "gameSeries":"Kirby",
         "firstApp":"Kirbys Dream Land (1992)",
         "votes": 0,
-        "user_id":14
+        //"user_id":14
     },
     {
         "charName": "Meta Knight",
@@ -147,7 +147,7 @@
         "gameSeries":"Kirby",
         "firstApp":"Kirbys Adventure (1993)",
         "votes": 0,
-        "user_id":15
+        //"user_id":15
     },
     {
         "charName": "Kirby",
@@ -157,7 +157,7 @@
         "gameSeries":"Kirby",
         "firstApp":"Kirbys Dream Land (1992)",
         "votes": 0,
-        "user_id":16
+        //"user_id":16
     },
     {
         "charName": "R.O.B",
@@ -167,7 +167,7 @@
         "gameSeries":"Nintendo",
         "firstApp":"Gyromite (1985)",
         "votes": 0,
-        "user_id":17
+        //"user_id":17
     },
     {
         "charName": "Ice Climbers",
@@ -177,7 +177,7 @@
         "gameSeries":"Ice Climbers",
         "firstApp":"Ice Climbers (1985)",
         "votes": 0,
-        "user_id":18
+        //"user_id":18
     },
     {
         "charName": "Pit",
@@ -187,7 +187,7 @@
         "gameSeries":"Kid Icarus",
         "firstApp":"Kid Icarus (1987)",
         "votes": 0,
-        "user_id":19
+        //"user_id":19
     },
     {
         "charName": "Zero Suit Samus Aran",
@@ -197,7 +197,7 @@
         "gameSeries":"Metroid",
         "firstApp":"Metroid (1987)",
         "votes": 0,
-        "user_id":20
+        //"user_id":20
     },
     {
         "charName": "Samus Aran",
@@ -207,7 +207,7 @@
         "gameSeries":"Metroid",
         "firstApp":"Metroid",
         "votes": 0,
-        "user_id":21
+       //"user_id":21
     },
     {
         "charName": "Toon Link",
@@ -217,7 +217,7 @@
         "gameSeries":"The Legend of Zelda",
         "firstApp":"The Legend of Zelda (1986) This Incarnation: The Legend of Zelda: Wind Waker (2003)",
         "votes": 0,
-        "user_id":22
+        //"user_id":22
     },
     {
         "charName": "Ganondorf",
@@ -227,7 +227,7 @@
         "gameSeries":"The Legend of Zelda",
         "firstApp":"The Legend of Zelda (1986) This Incarnation: The Legend of Zelda: Twilight Princess (2006)",
         "votes": 0,
-        "user_id":23
+        //"user_id":23
     },
     {
         "charName": "Sheik",
@@ -237,7 +237,7 @@
         "gameSeries":"The Legend of Zelda",
         "firstApp":"The Legend of Zelda: Ocarina of Time (1998)",
         "votes": 0,
-        "user_id":24
+        //"user_id":24
     },
     {
         "charName": "Princess Zelda",
@@ -247,7 +247,7 @@
         "gameSeries":"The Legend of Zelda (1986)",
         "firstApp":"The Legend of Zelda (1986) This Incarnation: The Legend of Zelda: Twilight Princess (2006)",
         "votes": 0,
-        "user_id":25
+        //"user_id":25
     },
     {
         "charName": "Link",
@@ -257,7 +257,7 @@
         "gameSeries":"Legend of Zelda(1986)",
         "firstApp":"The Legend of Zelda (1986)  This Incarnation: The Legend of Zelda: Twilight Princess (2006)",
         "votes": 0,
-        "user_id":26
+        //"user_id":26
     },
     {
         "charName": "Wario",
@@ -267,7 +267,7 @@
         "gameSeries":"Super Mario & Wario",
         "firstApp":"Super Mario Land 2: 6 Golden Coins (1992)",
         "votes": 0,
-        "user_id":27
+        //"user_id":27
     },
     {
         "charName": "Yoshi",
@@ -277,7 +277,7 @@
         "gameSeries":"Super Mario & Yoshi",
         "firstApp":"Super Mario World (1991)",
         "votes": 0,
-        "user_id":28
+        //"user_id":28
     },
     {
         "charName": "Diddy Kong",
@@ -287,7 +287,7 @@
         "gameSeries":"Donkey Kong & Mario Spin-Offs",
         "firstApp":"Donkey Kong Country (1994)",
         "votes": 0,
-        "user_id":29
+        //"user_id":29
     },
     {
         "charName": "Donkey Kong",
@@ -297,7 +297,6 @@
         "gameSeries":"Super Mario & Donkey Kong",
         "firstApp":"Donkey Kong (1984)",
         "votes": 0,
-        "user_id":30
+        //"user_id":30
     }
 ]
-
